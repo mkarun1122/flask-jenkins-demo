@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/<your-username>/flask-jenkins-demo.git'
+                git 'https://github.com/mkarun1122/flask-jenkins-demo.git'
             }
         }
         stage('Install Dependencies') {
